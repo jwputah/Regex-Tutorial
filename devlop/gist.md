@@ -15,7 +15,7 @@ This Regex (regular expression) Tutorial is created to help undestand and define
 HTML Tag Regex
 
 /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
-* [HTML](#html-tag-regex)
+* [HTML](#HTML)
 
 An HTML tag is a piece of markup language used to indicate the beginning and end of an HTML element in an HTML document. A tag tells the browser to do something and are inclosed in less than (<) and greater than (>) signs. For every opening tag, a closing tag is used containing the code within to execute.
 
@@ -23,19 +23,18 @@ An HTML tag is a piece of markup language used to indicate the beginning and end
 
 
 ### Table of Contents
-* [Anchors](#anchors)
-* [Quantifiers](#quantifiers)
-* [OR Operator](#or-operator)
-* [Character Classes](#character-classes)
-* [Flags](#flags)
-* [Grouping Capturing](#grouping-capturing)
-* [Bracket Expressions](#bracket-expressions)
-* [Greedy and Lazy Match](#greedy-and-lazy-match)
-* [Character Escapes](character-escapes)
-* [Boundaries](#boundaries)
-* [Back references](#back-references)
-* [Look-ahead and Look-behind](#look-ahead-and-look-behind)
-* [Author](#author)
+* [Anchors](#Anchors)
+* [Quantifiers](#Quantifiers)
+* [OROperator](#OROperator)
+* [CharacterClasses](#CharacterClasses)
+* [Flags](#Flags)
+* [GroupingandCapturing](#GroupingandCapturing)
+* [BracketExpressions](#BracketExpressions)
+* [GreedyandLazyMatch](#GreedyandLazyMatch)
+* [Boundaries](#Boundries)
+* [Back-references](#Back-references)
+* [Look-aheadandLook-behind](#look-aheadandLook-behind)
+* [Author](#Author)
 
 ----------
 
@@ -56,7 +55,7 @@ Quantifiers set the limits of the string that your regex matches.
 
 ---------
 
-#### OR-Operator
+#### OR Operator
 Acts like a boolean OR. Matches the expression before or after the |. It can operate within a group, or on a whole expression. The patterns will be tested in order.
 
 ###### HTML Tag Regex  
@@ -86,7 +85,7 @@ No Flags are used in HTML tag regex.
 
 ---------
 
-#### Grouping Capturing
+#### Grouping and Capturing
 Grouping constructs have two primary categories: capturing and non-capturing. The primary way you group a section of a regex is by using parentheses (()). Each section within parentheses is known as a subexpression. The important thing to understand is that capturing groups capture the matched character sequences for possible re-use (including a numbered backreference) while non-capturing groups do not.
 
 ###### HTML Tag Regex  
